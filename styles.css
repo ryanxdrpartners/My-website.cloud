@@ -2,6 +2,14 @@
    Palette: ink #060608 · deep ink #0A0A0E · graphite #101015 · ivory #F5F1E8 · stone #8C8A85 · gold #C9A96A · pale gold #E8D5A8 · sky #7DB9E8
    Type: Instrument Serif (headlines) · Inter (text) */
 
+@font-face{font-family:"Inter";font-weight:300;font-style:normal;font-display:swap;src:url(fonts/inter-latin-300-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/inter-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;font-style:normal;font-display:swap;src:url(fonts/inter-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Serif";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/instrument-serif-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Instrument Serif";font-weight:400;font-style:italic;font-display:swap;src:url(fonts/instrument-serif-latin-400-italic.woff2) format("woff2")}
+@font-face{font-family:"Fredoka";font-weight:400;font-style:normal;font-display:swap;src:url(fonts/fredoka-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"Fredoka";font-weight:600;font-style:normal;font-display:swap;src:url(fonts/fredoka-latin-600-normal.woff2) format("woff2")}
+
 :root{
   --bg:#060608;
   --bg2:#0A0A0E;
@@ -231,7 +239,7 @@ a.row:hover .row__name{color:var(--gold-l);text-decoration-color:var(--gold)}
 .footer{border-top:1px solid var(--line);padding:clamp(56px,7vw,88px) 0 0;overflow:hidden}
 .footer__top{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr);gap:48px}
 .footer__top p{margin-top:14px;color:var(--muted);max-width:22rem;font-size:.98rem}
-.footer h3{font:400 .9rem var(--sans);color:var(--dim);margin-bottom:14px}
+.footer h3,.footer__h{font:400 .9rem var(--sans);color:var(--dim);margin-bottom:14px}
 .footer ul{list-style:none;padding:0;display:grid;gap:10px;font-size:.98rem}
 .footer ul a{text-decoration:none;color:var(--muted);transition:color .2s}
 .footer ul a:hover{color:var(--text)}

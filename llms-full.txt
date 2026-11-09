@@ -1,0 +1,102 @@
+# my-website.cloud
+
+> Websites designed, built and hosted for growing businesses. One team, one monthly plan. Contact: hello@my-website.cloud
+
+Site: https://my-website.cloud/
+Last updated: 2026-11-09
+
+## Services (https://my-website.cloud/services.html)
+
+### Design and build
+We design the site around your business, plan the pages and wording with you, and build it to load quickly on any device.
+- Design based on your brand
+- Layouts for phones, tablets and desktops
+- Help with page structure and wording
+- Enquiry forms that reach the right inbox
+- Checks on every page before launch
+
+### Hosting
+Your site runs on fast, secure cloud hosting that we manage. If something needs fixing, we fix it.
+- SSL certificate included
+- Regular backups
+- Uptime monitoring
+- Security updates handled for you
+
+### Ongoing care
+A monthly arrangement that stops the site going stale. We make the changes you ask for and keep everything up to date.
+- Text and image changes
+- Software and security updates
+- Small improvements as your business changes
+- One person to contact
+
+### Search foundations
+The technical basics that help search engines understand and list your site.
+- Clean, well-structured pages
+- Page titles and descriptions
+- Fast loading times
+- Sitemap and Google Search Console set-up
+
+### Domains and email
+We register or move your domain and set up email on it, so your address matches your website.
+- Domain registration or transfer
+- DNS set-up handled for you
+- Mailboxes on your own domain
+- Help moving existing email across
+
+### Forms and automation
+Enquiry forms, booking links and simple automations that save you repeating the same tasks.
+- Enquiry and booking forms
+- Email alerts for new enquiries
+- Connecting the tools you already use
+- Simple workflow automations
+
+### One monthly plan after launch
+Once the site is live, a single monthly plan keeps it fast, secure and up to date. The price is given in writing before work starts. It includes managed cloud hosting, an SSL certificate, regular backups, uptime monitoring, security and software updates, and content changes and small improvements.
+
+## Frequently asked questions (https://my-website.cloud/services.html and https://my-website.cloud/about.html)
+
+**What does website hosting include?**
+Managed cloud hosting with an SSL certificate, regular backups, uptime monitoring, and security and software updates, all handled by us.
+
+**Will my website show up on Google?**
+We build in the technical foundations: clean page structure, clear page titles and descriptions, fast loading times, a sitemap and Google Search Console set-up. Where you rank also depends on your content and your competition, so we do not promise a position.
+
+**Can you move my domain and email?**
+Yes. We can register or transfer your domain, handle the DNS settings and set up mailboxes on your own domain, including moving existing email across.
+
+**Can you add booking forms or automate enquiries?**
+Yes. We set up enquiry and booking forms, email alerts for new enquiries, and simple automations that connect the tools you already use.
+
+**How long does a website take?**
+It depends on the size of the site. Your written quote includes a timeline, before any work begins.
+
+**Do I own my website?**
+Yes. Your domain, your content and your site are yours.
+
+**What does the monthly plan include?**
+Managed cloud hosting, an SSL certificate, regular backups, uptime monitoring, security and software updates, and content changes and small improvements.
+
+**Can you rebuild my existing website?**
+Yes. We can redesign and rebuild a site that has fallen behind, and move your domain, hosting and email across for you.
+
+**What do I need to get started?**
+A conversation. Tell us about your business and what you want the site to do, and we will send a written quote and next steps.
+
+## How a project runs (https://my-website.cloud/about.html)
+
+1. We talk: a short call about your business, your customers and what the site has to do. You get a written quote afterwards.
+2. We design: you see a working draft early, and we change it with you until it is right.
+3. We launch: we set up the domain, hosting and email, run our checks, and go live once you have approved it.
+4. We look after it: from launch, the monthly plan covers hosting, updates and the changes you ask for.
+
+## Recent websites (https://my-website.cloud/work.html)
+
+### XDR Partners (https://xdrpartners.com)
+A UK holding company that buys good businesses and keeps them for the long term. Its services include recruitment, management consulting, fractional C-suite, accounting, AI implementation and M&A. The site explains the group, its services and its long-term approach in one place, with a clear route to get in touch.
+
+### Apex Global Assets (https://apexglobalasset.com)
+An independent asset auditing and tracking firm for organisations that manage valuable equipment, including GPS monitoring, geofencing and digital tagging. The site sets out the problem of asset loss, how the audit works and which sectors it serves, and lets visitors book a consultation.
+
+## Contact (https://my-website.cloud/contact.html)
+
+Tell us about your business and what you need. We reply with a written quote and start once you have approved it. Email: hello@my-website.cloud

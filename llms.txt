@@ -1,0 +1,20 @@
+# my-website.cloud
+
+> my-website.cloud designs, builds and hosts websites for growing businesses, then looks after them every month. One team, one monthly plan, with a written quote before any work starts.
+
+Key facts:
+- What we do: website design and build, managed hosting, ongoing care, search foundations, domains and email, forms and automation.
+- How it is priced: a written quote up front, then one monthly plan after launch.
+- Ownership: the client owns their domain, content and site.
+- Contact: hello@my-website.cloud
+
+## Pages
+- [Home](https://my-website.cloud/): overview of what we do and who it is for
+- [Services](https://my-website.cloud/services.html): the six services, the monthly plan and common questions
+- [Work](https://my-website.cloud/work.html): recent live websites
+- [Approach](https://my-website.cloud/about.html): how a project runs in four stages, what to expect, and FAQs
+- [Contact](https://my-website.cloud/contact.html): how to start a project and get a written quote
+
+## Optional
+- [Full text of this site for language models](https://my-website.cloud/llms-full.txt)
+- [Sitemap](https://my-website.cloud/sitemap.xml)
