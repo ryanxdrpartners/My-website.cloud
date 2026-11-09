@@ -32,7 +32,7 @@
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
 <link rel="preload" href="fonts/inter-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://my-website.cloud/#organization","name":"my-website.cloud","url":"https://my-website.cloud/","logo":{"@type":"ImageObject","url":"https://my-website.cloud/icon-512.png","width":512,"height":512},"image":"https://my-website.cloud/og-image.png","description":"Websites designed, built and hosted for growing businesses.","email":"hello@my-website.cloud","areaServed":"Worldwide","address":{"@type":"PostalAddress","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","contactType":"sales","email":"hello@my-website.cloud","availableLanguage":"en-GB"},"knowsAbout":["Web design","Web development","Website hosting","Website maintenance","Search engine optimisation","Domain names and business email","Workflow automation"]},{"@type":"WebSite","@id":"https://my-website.cloud/#website","url":"https://my-website.cloud/","name":"my-website.cloud","description":"Websites designed, built and hosted for growing businesses.","inLanguage":"en-GB","publisher":{"@id":"https://my-website.cloud/#organization"}},{"@type":"BreadcrumbList","@id":"https://my-website.cloud/contact.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://my-website.cloud/"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://my-website.cloud/contact.html"}]},{"@type":["WebPage","ContactPage"],"@id":"https://my-website.cloud/contact.html#webpage","url":"https://my-website.cloud/contact.html","name":"Contact us for a website quote | my-website.cloud","description":"Tell us about your project in a few lines. We reply with a written quote and next steps, and start once you have approved it.","inLanguage":"en-GB","isPartOf":{"@id":"https://my-website.cloud/#website"},"about":{"@id":"https://my-website.cloud/#organization"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://my-website.cloud/og-image.png"},"dateModified":"2026-11-09","breadcrumb":{"@id":"https://my-website.cloud/contact.html#breadcrumb"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://my-website.cloud/#organization","name":"my-website.cloud","url":"https://my-website.cloud/","logo":{"@type":"ImageObject","url":"https://my-website.cloud/icon-512.png","width":512,"height":512},"image":"https://my-website.cloud/og-image.png","description":"Websites designed, built and hosted for growing businesses.","areaServed":"Worldwide","address":{"@type":"PostalAddress","addressCountry":"GB"},"contactPoint":{"@type":"ContactPoint","contactType":"sales","url":"https://my-website.cloud/contact.html","availableLanguage":"en-GB"},"knowsAbout":["Web design","Web development","Website hosting","Website maintenance","Search engine optimisation","Domain names and business email","Workflow automation"]},{"@type":"WebSite","@id":"https://my-website.cloud/#website","url":"https://my-website.cloud/","name":"my-website.cloud","description":"Websites designed, built and hosted for growing businesses.","inLanguage":"en-GB","publisher":{"@id":"https://my-website.cloud/#organization"}},{"@type":"BreadcrumbList","@id":"https://my-website.cloud/contact.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://my-website.cloud/"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://my-website.cloud/contact.html"}]},{"@type":["WebPage","ContactPage"],"@id":"https://my-website.cloud/contact.html#webpage","url":"https://my-website.cloud/contact.html","name":"Contact us for a website quote | my-website.cloud","description":"Tell us about your project in a few lines. We reply with a written quote and next steps, and start once you have approved it.","inLanguage":"en-GB","isPartOf":{"@id":"https://my-website.cloud/#website"},"about":{"@id":"https://my-website.cloud/#organization"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://my-website.cloud/og-image.png"},"dateModified":"2026-11-09","breadcrumb":{"@id":"https://my-website.cloud/contact.html#breadcrumb"}}]}</script>
 <script>try{if(!sessionStorage.getItem("lg")&&!matchMedia("(prefers-reduced-motion:reduce)").matches){document.documentElement.classList.add("lg-play");sessionStorage.setItem("lg","1")}}catch(e){}</script>
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -57,30 +57,38 @@
   <div>
     <h1 class="display display--md" aria-label="Let’s talk about your project."><span class="ln"><span>Let’s talk about</span></span><span class="ln"><span>your project.</span></span></h1>
     <p class="lead">A few lines about your business and what you need is enough. We will reply with a written quote.</p>
-    <a class="link contact__mail" href="mailto:hello@my-website.cloud">hello@my-website.cloud</a>
     <ol class="next">
       <li>You send the details.</li>
       <li>We reply with a written quote.</li>
       <li>We start once you have approved it.</li>
     </ol>
   </div>
-  <form class="form" id="form" novalidate>
+  <form class="form" id="form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+    <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+    <input type="hidden" name="subject" value="New website enquiry from my-website.cloud">
+    <input type="hidden" name="from_name" value="my-website.cloud">
+    <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
     <div class="form__two">
       <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+      <div class="field"><label for="phone">Contact number</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required></div>
+    </div>
+    <div class="form__two">
       <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div class="field"><label for="url">Current website <span class="opt">(if you have one)</span></label><input id="url" name="current_website" type="text" inputmode="url" autocomplete="url" placeholder="yourbusiness.com"></div>
     </div>
     <div class="field">
       <label for="type">What do you need?</label>
-      <select id="type" name="type">
+      <select id="type" name="need">
         <option>A new website</option>
         <option>A rebuild of my current site</option>
         <option>Hosting and care for an existing site</option>
         <option>Not sure yet</option>
       </select>
     </div>
-    <div class="field"><label for="msg">About your project</label><textarea id="msg" name="msg"></textarea></div>
+    <div class="field"><label for="msg">About your project</label><textarea id="msg" name="message"></textarea></div>
     <div><button class="btn" type="submit">Send enquiry</button></div>
-    <p class="form__status" id="status" role="status"></p>
+    <p class="form__status" id="status" role="status" aria-live="polite"></p>
+    <p class="form__note">We only use your details to reply to your enquiry.</p>
   </form>
 </div>
 </main>
@@ -103,7 +111,7 @@
       </div>
       <div>
         <p class="footer__h">Get in touch</p>
-        <ul><li><a href="mailto:hello@my-website.cloud">hello@my-website.cloud</a></li></ul>
+        <ul><li><a href="contact.html">Send an enquiry</a></li></ul>
       </div>
     </div>
     <div class="footer__base">© <span id="yr">2026</span> my-website.cloud</div>

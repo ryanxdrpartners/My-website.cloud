@@ -9,21 +9,31 @@
     btn.setAttribute('aria-expanded', open);
   });
 
-  /* contact form: opens the visitor's email app with their details filled in.
-     To receive submissions directly, point the form at a form service (e.g. Formspree) when you deploy. */
+  /* contact form: posts to Web3Forms (access key is public by design; the destination inbox is set in the Web3Forms account). */
   var form = document.getElementById('form');
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var f = e.target, s = document.getElementById('status');
-      if (!f.name.value.trim() || !/^\S+@\S+\.\S+$/.test(f.email.value)) {
-        s.textContent = 'Enter your name and a valid email address.';
+      var f = e.target, s = document.getElementById('status'), btn = f.querySelector('button[type=submit]');
+      if (!f.name.value.trim() || !f.phone.value.trim() || !/^\S+@\S+\.\S+$/.test(f.email.value)) {
+        s.textContent = 'Please enter your name, contact number and a valid email address.';
         return;
       }
-      var body = 'Name: ' + f.name.value + '\nEmail: ' + f.email.value + '\nNeed: ' + f.type.value + '\n\n' + f.msg.value;
-      window.location.href = 'mailto:hello@my-website.cloud?subject=' +
-        encodeURIComponent('Website enquiry from ' + f.name.value) + '&body=' + encodeURIComponent(body);
-      s.textContent = 'Your email app should now open with your enquiry ready to send.';
+      if (/^YOUR_/.test(f.access_key.value)) {
+        s.textContent = 'The form is not switched on yet. Please check back soon.';
+        return;
+      }
+      btn.disabled = true; s.textContent = 'Sending…';
+      var data = {};
+      new FormData(f).forEach(function (v, k) { data[k] = v; });
+      fetch(f.action, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data) })
+        .then(function (r) { return r.json(); })
+        .then(function (r) {
+          if (r.success) { f.reset(); s.textContent = 'Thank you. Your enquiry has been sent and we will reply with a written quote.'; }
+          else { s.textContent = 'Something went wrong. Please try again in a moment.'; }
+        })
+        .catch(function () { s.textContent = 'Something went wrong. Please check your connection and try again.'; })
+        .then(function () { btn.disabled = false; });
     });
   }
 })();

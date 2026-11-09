@@ -7,7 +7,7 @@ Key facts:
 - How it is priced: a written quote up front, then one monthly plan after launch.
 - Ownership: the client owns their domain, content and site.
 - Where: based in the UK, working with clients worldwide.
-- Contact: hello@my-website.cloud
+- Contact: use the enquiry form at https://my-website.cloud/contact.html
 
 ## Pages
 - [Home](https://my-website.cloud/): overview of what we do and who it is for
