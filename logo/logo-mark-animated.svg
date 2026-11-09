@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 6 112 90" width="448" height="360" role="img" aria-label="my-website.cloud logo mark (animated)">
+<style>
+.a,.b{fill:none;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 2}
+.a{stroke:#C9A96A;animation:d .9s cubic-bezier(.2,.8,.2,1) backwards}
+.b{stroke:#7DB9E8;animation:d .6s cubic-bezier(.2,.8,.2,1) .7s backwards}
+.c{fill:#C9A96A;stroke:#C9A96A;stroke-width:2;stroke-linejoin:round;transform-box:fill-box;transform-origin:0 0;animation:p .55s cubic-bezier(.2,.8,.2,1) 1.3s backwards}
+.r{fill:none;stroke:#C9A96A;stroke-width:2;opacity:0;transform-box:fill-box;transform-origin:center;animation:r .8s ease-out 1.75s backwards}
+@keyframes d{from{stroke-dashoffset:1.05}to{stroke-dashoffset:0}}
+@keyframes p{from{opacity:0;transform:translate(-16px,-16px) scale(.6)}to{opacity:1;transform:none}}
+@keyframes r{0%{opacity:.7;transform:scale(.3)}100%{opacity:0;transform:scale(4)}}
+@media (prefers-reduced-motion:reduce){.a,.b,.c,.r{animation:none}.a,.b{stroke-dasharray:none}}
+</style>
+<path class="a" pathLength="1" d="M28.2 33.17A30 30 0 0 1 82 32A26 26 0 0 1 94 80H76"/>
+<path class="b" pathLength="1" d="M44 80H27A20 20 0 0 1 18.55 41.87"/>
+<circle class="r" cx="50" cy="44" r="5"/>
+<path class="c" d="M50 44V79.65L58.6 71.6L64.95 86.55L71.85 83.7L65.5 69.3H77.6Z"/>
+</svg>
